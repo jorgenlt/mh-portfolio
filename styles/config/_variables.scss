@@ -1,0 +1,25 @@
+// color schema 1
+$green:         #009580;
+$darkblue:      #212531;
+
+// testing colors
+$test-pri: #72D591;
+$test-sec: #033c4f;
+
+// colors
+$pri:           $test-pri;
+$sec:           $test-sec;
+$sec-dark:      darken($sec, 8);
+$scroll:        lighten($sec, 6);
+$hover:         lighten($pri, 10);
+$black:         #282828;
+$white:         #F5F5F5;
+$light-gray:    #dddfe3;
+$dark-gray:     #313547;
+
+$section1:      $white;
+$section2:      darken($white, 5);
+$section3:      $white;
+$section4:      darken($white, 5);
+$section5:      $white;
+$section6:      darken($white, 5);
