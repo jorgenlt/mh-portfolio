@@ -1,6 +1,6 @@
 import { useState, useRef, useEffect } from "react";
 import { FaBars } from "react-icons/fa";
-import Image from 'next/image';
+// import Image from 'next/image';
 
 const Navbar = () => {
   const [showLinks, setShowLinks] = useState(false);
@@ -36,7 +36,7 @@ const Navbar = () => {
     <nav>
       <div className="nav--center">
         <div className="nav--header">
-            <Image 
+            <img
               src="/images/signature.png" 
               className="logo"
               alt="logo" 
