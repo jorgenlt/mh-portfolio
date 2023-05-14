@@ -37,7 +37,7 @@ const Navbar = () => {
       <div className="nav--center">
         <div className="nav--header">
             <Image 
-              src="/static/signature.png" 
+              src="/signature.png" 
               className="logo"
               alt="logo" 
               width={150}
