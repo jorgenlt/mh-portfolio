@@ -1,6 +1,6 @@
 import { useState, useRef, useEffect } from "react";
 import { FaBars } from "react-icons/fa";
-import signature from '/images/signature.png';
+import signature from '/images/prpw.png';
 // import Image from 'next/image';
 
 const Navbar = () => {
