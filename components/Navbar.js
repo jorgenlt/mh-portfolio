@@ -1,6 +1,5 @@
 import { useState, useRef, useEffect } from "react";
 import { FaBars } from "react-icons/fa";
-import signature from '/images/prpw.png';
 // import Image from 'next/image';
 
 const Navbar = () => {
@@ -38,7 +37,7 @@ const Navbar = () => {
       <div className="nav--center">
         <div className="nav--header">
             <img
-              src={signature} 
+              src="/images/signature.png" 
               className="logo"
               alt="logo" 
               width={150}
